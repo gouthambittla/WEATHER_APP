@@ -1,0 +1,60 @@
+body {
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(146, 146, 226, 0.6951374299719888) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.5);
+    width: 40%;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.searchbtn {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+}
+
+input {
+    border: none;
+    border-radius: 50px;
+    height: 40px;
+    width: 100%;
+    padding: 0 15px;
+    font-size: 1.5rem;
+}
+
+.weather-info {
+    text-align: center;
+    display: none;
+}
+
+.logo {
+    margin: 20px 0;
+   
+}
+
+.weatherlogo {
+    height: 100px;
+    width: auto;
+}
+
+.status,
+.temp {
+    margin: 5px;
+}
